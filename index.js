@@ -29,6 +29,6 @@ closeBtn.addEventListener('click', function () {
 
 modal.addEventListener('click', function (e) {
   if (e.target === modal) {
-    modal.classList.remove('show-modal');
+    modal.classList.remove('open-modal');
   }
 });
